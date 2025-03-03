@@ -1,34 +1,35 @@
-/* Import Google Font */
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap');
 
-/* General Styles */
+
 body {
-    font-family: 'Merriweather', serif; /* Elegant and classic */
-    background-color: #FAF3E0; /* Soft cream background */
+    font-family: 'Nunito', sans-serif;
+    background-color: #FFF1E6;
     margin: 0;
     padding: 0;
-    color: #2C2C2C;
+    
 }
 
-/* Header */
+
 header {
-    background-color: #4A1A1A; /* Deep Burgundy */
-    padding: 40px 20px;
+    background-color: #D88C9A;
+    padding: 50px 20px;
     text-align: center;
     color: white;
+    border-bottom: 5px solid pink;
 }
 
 h1 {
-    font-size: 28px;
+    font-size: 26px;
     margin: 0;
     font-weight: 700;
+    padding: 4px;
 }
 
-/* Navigation */
+
 nav {
-    background-color: #C0A060; /* Muted Gold */
+    background-color: #F2B5D4;
     text-align: center;
-    padding: 15px 0;
+    padding: 12px 0;
 }
 
 nav ul {
@@ -39,58 +40,80 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin: 0 25px;
+    margin: 0 20px;
 }
 
 nav ul li a {
     text-decoration: none;
-    color: #4A1A1A; /* Deep Burgundy */
+    color: #4E3636;
     font-weight: 600;
     font-size: 18px;
     transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
-    color: #827B5C; /* Subtle Olive Green */
+    color: whitesmoke;
 }
 
-/* Gallery */
+#photos {
+    text-align: center;
+    padding: 30px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    color: #4E3636
+}
+
 .gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 15px;
-    padding: 30px;
+    padding: 20px;
     justify-items: center;
 }
 
 .gallery img {
     width: 100%;
-    max-width: 450px;
-    height: auto;
-    border-radius: 8px; /* Softer but not overly round */
-    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.15);
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
 .gallery img:hover {
-    transform: scale(1.03);
-    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+    box-shadow: 5px 5px 18px rgba(0, 0, 0, 0.2);
 }
 
-/* Research Section */
+
 #research {
-    padding: 30px;
-    max-width: 900px;
-    margin: auto;
-    text-align: justify;
+  padding: 30px;
+  max-width: 800px;
+  margin: auto;
+  text-align: justify;
+  line-height: 1.6;
+  font-size: 18px;
 }
 
-/* Footer */
+#location {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.1);
+}
+
 footer {
     text-align: center;
     padding: 15px;
-    background-color: #4A1A1A;
+    background-color: #D88C9A;
     color: white;
     font-size: 14px;
     margin-top: 30px;
 }
+
