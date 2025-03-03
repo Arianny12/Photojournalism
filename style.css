@@ -1,7 +1,7 @@
 /* General Styles */
 body {
   font-family: 'Arial', sans-serif;
-  background-color: #F5EFE6; /* Professional beige */
+  background-color: #FCE5CD; /* Vibrant, warm peachy background */
   margin: 0;
   padding: 0;
   color: #333;
@@ -9,21 +9,22 @@ body {
 
 /* Header */
 header {
-  background-color: #D4C3A3;
-  padding: 10px 20px;
+  background-color: #FFAD60; /* Warm, lively orange */
+  padding: 20px;
   text-align: center;
 }
 
 h1 {
-  font-size: 24px;
+  font-size: 28px; /* Made slightly bigger */
   margin: 0;
+  color: #fff;
 }
 
 /* Navigation */
 nav {
-  background-color: #B8A58D;
+  background-color: #FF7F50; /* Coral, fun color */
   text-align: center;
-  padding: 10px 0;
+  padding: 15px 0;
 }
 
 nav ul {
@@ -34,13 +35,14 @@ nav ul {
 
 nav ul li {
   display: inline;
-  margin: 0 15px;
+  margin: 0 20px;
 }
 
 nav ul li a {
   text-decoration: none;
   color: white;
   font-weight: bold;
+  font-size: 18px;
 }
 
 /* Gallery */
@@ -52,10 +54,10 @@ nav ul li a {
 }
 
 .gallery img {
-  width: 300px;
-  height: auto;
+  width: 320px;
+  height: 220px; /* Ensuring all images are the same size */
   margin: 10px;
-  border-radius: 10px;
+  border-radius: 8px; /* Less roundness */
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -70,6 +72,7 @@ nav ul li a {
 footer {
   text-align: center;
   padding: 10px;
-  background-color: #D4C3A3;
+  background-color: #FFAD60;
   margin-top: 20px;
+  color: white;
 }
