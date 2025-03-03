@@ -1,1 +1,3 @@
-# Photojournalism - Churches in Bedford-Stuyvesant and Crown Heights
+# Photojournalism 
+
+Churches in Bedford-Stuyvesant and Crown Heights
