@@ -90,7 +90,7 @@ h2 {
 }
 
 
-#research{
+#research, #resources, #brainstorming, #map-section {
   padding: 30px;
   max-width: 800px;
   margin: auto;
@@ -98,31 +98,6 @@ h2 {
   line-height: 1.6;
   font-size: 18px;
 }
-
-  #resources {
-    padding: 30px;
-    max-width: 800px;
-    margin: auto;
-    text-align: justify;
-    line-height: 1.6;
-    font-size: 18px;
-  }
-  #brainstorming {
-    padding: 30px;
-    max-width: 800px;
-    margin: auto;
-    text-align: justify;
-    line-height: 1.6;
-    font-size: 18px;
-  }
-  #map-section {
-    padding: 30px;
-    max-width: 800px;
-    margin: auto;
-    text-align: justify;
-    line-height: 1.6;
-    font-size: 18px;
-  }
 
 #location {
   display: block;
